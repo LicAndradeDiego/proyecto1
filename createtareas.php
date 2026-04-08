@@ -14,7 +14,9 @@ $sql="INSERT INTO proyecto.tareas (id, nombre, descripcion, estado) VALUES ('$id
 if($conexion->query($sql)===TRUE){
     echo"Registro exitoso";
 }
-
+else{
+    echo"Error: ".$sql."<br>".$conexion->error;
+}
 
 
 
