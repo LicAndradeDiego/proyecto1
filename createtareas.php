@@ -1,8 +1,4 @@
 
-
-
-
-
 <?php
 require("proyecto.php");
 $id=$_POST["id"];
